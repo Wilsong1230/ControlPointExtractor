@@ -1,0 +1,14 @@
+Roadway Plan benchmark and control point extractor
+
+current version: Version 2.0
+
+Goals:
+Build a schema-driven control point extractor for roadway plans. 
+Create a CSV builder that uses extracted data in order to import into ARCgis.
+
+	V2 principles:
+		No fixed cropping
+		No assumptions about table position
+		No assumption about column order
+		Detect rows with schema
+		Ignore irrelevant tables
